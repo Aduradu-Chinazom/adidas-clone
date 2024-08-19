@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.width{
+    width: 90%;
+    margin: auto;
+}
+.hero{
+    background-image: url(images/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.new_btn{
+    gap: 10px;
+}
+.new_btn button{
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.new_btn_one{
+    background-color: black;
+    color: white;
+}
+.new_btn_two{
+    background-color: white;
+    border: .5px solid black !important;
+}
+.scroll{
+    width: 90%;
+    background-color: #eeeeee;
+    height: 15px;
+}
+.yh{
+    justify-content: space-between;
+}
+.hm{
+    padding-top: 40px;
+}
+.veiw{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.grid4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-top: 50px;
+}
+.grid4_child{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.grid4_child p{
+    font-size: 1.2rem;
+}
+.grid4_child span{
+    font-size: 1rem;
+    color: gray;
+}
+.grid4_child h4{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.img_case{
+    background-image: url(images/Ultraboost_5X_Shoes_Black_JI1334_HM1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.dollars{
+    width: 12%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_case1{
+    background-image: url(images/Ultraboost_5X_Shoes_Blue_JI3385_01_standard_hover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case1 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case2{
+    background-image: url(images/Ultraboost_5X_Shoes_Pink_JH7253_01_standard_hover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case2 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case3{
+    background-image: url(images/Ultraboost_5X_Shoes_White_JH7245_01_standard_hover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case3 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.still{
+    padding: 30px 0 0 20px;
+    font-size: 2.5rem;
+}
+.img_case4{
+    background-image: url(images/Y-3_Ultraboost_5_Black_IH0869_01_standard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case4 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+
+.img_case5{
+    background-image: url(images/Y-3_Gazelle_Purple_JI2067_01_standard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case5 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+
+.img_case6{
+    background-image: url(images/Y-3_Gazelle_Black_IE3239_01_standard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case6 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+
+.img_case7{
+    background-image: url(images/Y-3_Japan_Black_IH2550_01_standard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case7 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.decor{
+    height: 3px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.img_case8{
+    background-image: url(images/Y-3_Japan_Black_IH2550_01_standard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case8 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case9{
+    background-image: url(images/og_ss24_aug_samba_tc_d_4823185cc1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case9 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case10{
+    background-image: url(images/orig_og164_fw24_forum_onsite_tc_white_d_5ad718d11a.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case10 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case11{
+    background-image: url(images/glbl_aclubs_legends_football_ss24_launch_onsite_tcc_m_907d19eadc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case11 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.img_case12{
+    background-image: url(images/glbl_75_year_anniversary_pack_digital_fw24_launch_dotcom_hp_collection_card_carousel_launch_dmt_m_b91388e5af.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.img_case12 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 270px;
+}
+.pop{
+    padding: 80px 0 80px 20px;
+    font-size: 2.5rem;
+}
+.g3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.g3-child{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.baby{
+    font-size: 2.5rem;
+    font-weight: 700px;
+    padding-right: 80px;
+    border-bottom: 1.5px solid black;
+}
