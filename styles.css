@@ -144,17 +144,20 @@
     padding: 10px;
 }
 
-.footer_four_child{
-    flex-direction: column;
-    gap: 10px;
+.img1{
+    width: 100%;
+    height: 500px;
 }
-.footer_four_child p{
-    font-size: 1.3rem;
+.img2{
+    width: 100%;
+    height: 110px;
 }
-.footer_four_child ul{
-    flex-direction: column;
-    gap: 5px;
-}
-.footer_four_child ul li {
-    list-style: none;
+
+@media (min-width:320px)and (max-width:760px) {
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
 }
