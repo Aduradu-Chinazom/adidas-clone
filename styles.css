@@ -38,6 +38,11 @@
     list-style: none;
     cursor: pointer;
 }
+.bottom_nav_mid_boldtext a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
 .bottom_nav_end{
     flex-direction: column;
     gap: 20px;
